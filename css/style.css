@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    font-size: 1.5em;
+}
+
+.img {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 15px;
+    margin: auto;
+}
+
+main {
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grifinoria {
+    background-color: #A60311;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    border-radius: 22px;
+    padding: 18px;
+}
+#grifinoria {
+    text-decoration: none;
+    color:#F2B035;
+}
+.grifinoria:hover {
+    background-color: #73020C;
+}
+
+.sonserina {
+    background-color: #184026;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 300;
+    border-radius: 22px;
+    padding: 18px;
+}
+#sonserina {
+    text-decoration: none;
+    color: #A6A6A6;
+}
+.sonserina:hover {
+    background-color: #275934;
+}
+
+.lufa-lufa {
+    background-color: #F2B33D;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 300;
+    border-radius: 22px;
+    padding: 18px;
+}
+#lufa-lufa {
+    text-decoration: none;
+    color: #403430;
+}
+.lufa-lufa:hover {
+    background-color: #F2C063;
+}
+
+.corvinal {
+    background-color: #0F1F40;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 300;
+    border-radius: 22px;
+    padding: 18px;
+}
+#corvinal {
+    text-decoration: none;
+    color: #8C612B;
+}
+.corvinal:hover {
+    background-color:#233059;
+}
